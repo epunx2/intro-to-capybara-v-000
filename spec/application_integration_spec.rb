@@ -13,7 +13,7 @@ describe "GET '/' - Greeting Form" do
 
     expect(page).to have_selector("form")
     expect(page).to have_field(:user_name)
-    # expect(page).to have_text("Yo Eric")
+    expect(page).to have_text("Yo Eric")
   end
 end
 
